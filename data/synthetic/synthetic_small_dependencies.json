@@ -1,0 +1,55 @@
+{
+  "directed": true,
+  "edges": [
+    [
+      "api-gateway",
+      "checkout-svc"
+    ],
+    [
+      "checkout-svc",
+      "postgres-db"
+    ],
+    [
+      "api-gateway",
+      "auth-svc"
+    ],
+    [
+      "auth-svc",
+      "auth-cache"
+    ],
+    [
+      "billing-svc",
+      "payment-gateway"
+    ],
+    [
+      "settlement-svc",
+      "billing-svc"
+    ],
+    [
+      "recommendation-svc",
+      "search-reranker"
+    ],
+    [
+      "search-reranker",
+      "recommendation-svc"
+    ],
+    [
+      "inventory-svc",
+      "auth-cache"
+    ]
+  ],
+  "nodes": [
+    "api-gateway",
+    "auth-cache",
+    "auth-svc",
+    "billing-svc",
+    "checkout-svc",
+    "inventory-svc",
+    "payment-gateway",
+    "postgres-db",
+    "recommendation-svc",
+    "search-reranker",
+    "settlement-svc"
+  ],
+  "notes": "Synthetic dependency graph. Note: contains circular dependency and a stale edge (inventory-svc -> auth-cache)."
+}

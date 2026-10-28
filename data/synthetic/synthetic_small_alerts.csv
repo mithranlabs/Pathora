@@ -1,0 +1,42 @@
+alert_id,timestamp,service,severity,message,source,host,is_synthetic
+synth_00038,2026-10-28T12:02:04+00:00,email-sender,info,Routine background notice: job 101 finished with exit_code=0,systemd,node-6,True
+synth_00008,2026-10-28T12:00:50+00:00,auth-cache,error,"Keys eviction rate spike: 12,000 evictions/sec",redis_exporter,node-9,True
+synth_00010,2026-10-28T12:01:50+00:00,auth-svc,error,Authentication validation latency > 2000ms,datadog,node-10,True
+synth_00012,2026-10-28T12:05:04+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1001,payment_engine,node-4,True
+synth_00019,2026-10-28T12:05:34+00:00,billing-svc,error,Payment processing transaction failed: handshake abort code=1008,payment_engine,node-1,True
+synth_00023,2026-10-28T12:05:48+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1012,payment_engine,node-5,True
+synth_00007,2026-10-28T12:00:30+00:00,auth-cache,critical,Redis OOM: used_memory exceeded maxmemory limit (4GB),redis_exporter,node-2,True
+synth_00034,2026-10-28T12:02:00+00:00,checkout-svc,warning,Slow query log entry ingested with 15-minute reporter delay,cloudwatch_delayed_log,node-4,True
+synth_00031,2026-10-28T12:13:20+00:00,inventory-svc,warning,Kafka consumer group lag recovered under threshold,kafka_monitor,node-10,True
+synth_00027,2026-10-28T12:09:20+00:00,inventory-svc,warning,Kafka consumer group lag recovered under threshold,kafka_monitor,node-6,True
+synth_00011,2026-10-28T12:05:00+00:00,payment-gateway,critical,External partner TLS certificate validation failed: expired cert,cert_checker,node-7,True
+synth_00001,2026-10-28T12:00:00+00:00,postgres-db,critical,Max connection pool limit reached (500/500),pg_exporter,node-2,True
+synth_00030,2026-10-28T12:12:20+00:00,inventory-svc,critical,"Kafka consumer group lag exceeded 50,000 messages",kafka_monitor,node-2,True
+synth_00039,2026-10-28T12:13:51+00:00,backup-daemon,info,Routine background notice: job 102 finished with exit_code=0,systemd,node-4,True
+synth_00032,2026-10-28T12:16:40+00:00,recommendation-svc,error,RPC Deadlock detected with search-reranker,grpc_interceptor,node-3,True
+synth_00033,2026-10-28T12:16:40+00:00,search-reranker,error,RPC Deadlock detected with recommendation-svc,grpc_interceptor,node-9,True
+synth_00018,2026-10-28T12:05:28+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1007,payment_engine,node-2,True
+synth_00013,2026-10-28T12:05:09+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1002,payment_engine,node-9,True
+synth_00029,2026-10-28T12:11:20+00:00,inventory-svc,warning,Kafka consumer group lag recovered under threshold,kafka_monitor,node-5,True
+synth_00020,2026-10-28T12:05:39+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1009,payment_engine,node-7,True
+synth_00014,2026-10-28T12:05:13+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1003,payment_engine,node-4,True
+synth_00022,2026-10-28T12:05:46+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1011,payment_engine,node-2,True
+synth_00006,2026-10-28T12:02:00+00:00,api-gateway,error,Circuit breaker OPEN for service 'checkout-svc',ingress_controller,node-3,True
+synth_00021,2026-10-28T12:05:40+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1010,payment_engine,node-10,True
+synth_00005,2026-10-28T12:01:30+00:00,api-gateway,warning,Upstream checkout-svc responded with HTTP 504,ingress_controller,node-4,True
+synth_00004,2026-10-28T12:01:00+00:00,checkout-svc,critical,HTTP 500 error rate spiked to 34%,app_metrics,node-4,True
+synth_00002,2026-10-28T12:00:15+00:00,postgres-db,critical,Query latency > 4500ms on table 'orders',pg_exporter,node-1,True
+synth_00025,2026-10-28T12:05:58+00:00,billing-svc,error,Payment processing transaction failed: handshake abort code=1014,payment_engine,node-3,True
+synth_00003,2026-10-28T12:00:45+00:00,checkout-svc,error,Database connection timeout after 3000ms,app_metrics,node-5,True
+synth_00040,2026-10-28T12:19:31+00:00,backup-daemon,info,Routine background notice: job 103 finished with exit_code=0,systemd,node-8,True
+synth_00037,2026-10-28T12:13:07+00:00,backup-daemon,info,Routine background notice: job 100 finished with exit_code=0,systemd,node-6,True
+synth_00041,2026-10-28T12:13:40+00:00,dns-resolver,info,Routine background notice: job 104 finished with exit_code=0,systemd,node-5,True
+synth_00015,2026-10-28T12:05:19+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1004,payment_engine,node-1,True
+synth_00024,2026-10-28T12:05:52+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1013,payment_engine,node-7,True
+synth_00026,2026-10-28T12:08:20+00:00,inventory-svc,critical,"Kafka consumer group lag exceeded 50,000 messages",kafka_monitor,node-6,True
+synth_00028,2026-10-28T12:10:20+00:00,inventory-svc,critical,"Kafka consumer group lag exceeded 50,000 messages",kafka_monitor,node-4,True
+synth_00017,2026-10-28T12:05:26+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1006,payment_engine,node-6,True
+synth_00035,2026-10-28T12:18:20+00:00,,warning,Host kernel memory pressure threshold reached,node_exporter,node-3,True
+synth_00036,INVALID_DATE,analytics-pipeline,info,Daily aggregations scheduled task started,prometheus,node-8,True
+synth_00016,2026-10-28T12:05:21+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1005,payment_engine,node-6,True
+synth_00009,2026-10-28T12:01:20+00:00,auth-svc,warning,Cache miss rate for JWT session tokens jumped to 88%,datadog,node-2,True

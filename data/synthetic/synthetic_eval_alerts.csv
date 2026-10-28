@@ -1,0 +1,222 @@
+alert_id,timestamp,service,severity,message,source,host,is_synthetic
+synth_00210,2026-10-28T12:16:49+00:00,inventory-svc,error,Metric oscillation: memory_utilization=85%,datadog,node-5,True
+synth_00027,2026-10-28T12:06:04+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1016,payment_engine,node-9,True
+synth_00163,2026-10-28T12:24:42+00:00,inventory-svc,info,Metric oscillation: memory_utilization=70%,datadog,node-10,True
+synth_00003,2026-10-28T12:00:45+00:00,checkout-svc,error,Database connection timeout after 3000ms,app_metrics,node-5,True
+synth_00187,2026-10-28T12:07:22+00:00,auth-svc,error,Metric oscillation: memory_utilization=90%,datadog,node-5,True
+synth_00209,2026-10-28T12:21:08+00:00,postgres-db,info,Metric oscillation: memory_utilization=88%,datadog,node-2,True
+synth_00146,2026-10-28T12:14:59+00:00,billing-svc,info,Metric oscillation: memory_utilization=94%,datadog,node-8,True
+synth_00199,2026-10-28T12:13:49+00:00,billing-svc,info,Metric oscillation: memory_utilization=79%,datadog,node-10,True
+synth_00026,2026-10-28T12:06:02+00:00,billing-svc,critical,Payment processing transaction failed: handshake abort code=1015,payment_engine,node-5,True
+synth_00136,2026-10-28T12:04:28+00:00,billing-svc,warning,Metric oscillation: memory_utilization=71%,datadog,node-9,True
+synth_00152,2026-10-28T12:14:06+00:00,inventory-svc,error,Metric oscillation: memory_utilization=85%,datadog,node-3,True
+synth_00100,2026-10-28T12:07:21+00:00,backup-daemon,info,Routine background notice: job 118 finished with exit_code=0,systemd,node-5,True
+synth_00078,2026-10-28T12:16:40+00:00,search-reranker,error,RPC Deadlock detected with recommendation-svc,grpc_interceptor,node-8,True
+synth_00207,2026-10-28T12:04:45+00:00,postgres-db,warning,Metric oscillation: memory_utilization=69%,datadog,node-5,True
+synth_00054,2026-10-28T12:07:53+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1043,payment_engine,node-6,True
+synth_00155,2026-10-28T12:22:46+00:00,billing-svc,warning,Metric oscillation: memory_utilization=89%,datadog,node-3,True
+synth_00143,2026-10-28T12:10:35+00:00,auth-svc,info,Metric oscillation: memory_utilization=81%,datadog,node-6,True
+synth_00185,2026-10-28T12:11:17+00:00,inventory-svc,warning,Metric oscillation: memory_utilization=67%,datadog,node-4,True
+synth_00150,2026-10-28T12:19:12+00:00,postgres-db,error,Metric oscillation: memory_utilization=74%,datadog,node-8,True
+synth_00021,2026-10-28T12:05:40+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1010,payment_engine,node-10,True
+synth_00052,2026-10-28T12:07:45+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1041,payment_engine,node-7,True
+synth_00064,2026-10-28T12:08:35+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1053,payment_engine,node-2,True
+synth_00220,2026-10-28T12:02:05+00:00,billing-svc,warning,Metric oscillation: memory_utilization=80%,datadog,node-5,True
+synth_00208,2026-10-28T12:05:41+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=70%,datadog,node-5,True
+synth_00033,2026-10-28T12:06:31+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1022,payment_engine,node-3,True
+synth_00072,2026-10-28T12:09:20+00:00,inventory-svc,warning,Kafka consumer group lag recovered under threshold,kafka_monitor,node-1,True
+synth_00178,2026-10-28T12:21:10+00:00,inventory-svc,error,Metric oscillation: memory_utilization=60%,datadog,node-9,True
+synth_00055,2026-10-28T12:07:56+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1044,payment_engine,node-10,True
+synth_00095,2026-10-28T12:02:30+00:00,email-sender,warning,Routine background notice: job 113 finished with exit_code=0,systemd,node-5,True
+synth_00079,2026-10-28T12:02:00+00:00,checkout-svc,warning,Slow query log entry ingested with 15-minute reporter delay,cloudwatch_delayed_log,node-5,True
+synth_00007,2026-10-28T12:00:30+00:00,auth-cache,critical,Redis OOM: used_memory exceeded maxmemory limit (4GB),redis_exporter,node-2,True
+synth_00036,2026-10-28T12:06:41+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1025,payment_engine,node-2,True
+synth_00045,2026-10-28T12:07:17+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1034,payment_engine,node-3,True
+synth_00090,2026-10-28T12:07:08+00:00,backup-daemon,info,Routine background notice: job 108 finished with exit_code=0,systemd,node-5,True
+synth_00028,2026-10-28T12:06:09+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1017,payment_engine,node-7,True
+synth_00183,2026-10-28T12:19:43+00:00,postgres-db,info,Metric oscillation: memory_utilization=87%,datadog,node-9,True
+synth_00023,2026-10-28T12:05:48+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1012,payment_engine,node-5,True
+synth_00029,2026-10-28T12:06:14+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1018,payment_engine,node-6,True
+synth_00102,2026-10-28T12:03:59+00:00,billing-svc,info,Metric oscillation: memory_utilization=62%,datadog,node-1,True
+synth_00091,2026-10-28T12:13:40+00:00,email-sender,warning,Routine background notice: job 109 finished with exit_code=0,systemd,node-8,True
+synth_00164,2026-10-28T12:21:33+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=79%,datadog,node-2,True
+synth_00067,2026-10-28T12:08:46+00:00,billing-svc,critical,Payment processing transaction failed: handshake abort code=1056,payment_engine,node-2,True
+synth_00047,2026-10-28T12:07:24+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1036,payment_engine,node-5,True
+synth_00157,2026-10-28T12:16:21+00:00,inventory-svc,info,Metric oscillation: memory_utilization=84%,datadog,node-5,True
+synth_00132,2026-10-28T12:23:47+00:00,inventory-svc,warning,Metric oscillation: memory_utilization=72%,datadog,node-3,True
+synth_00096,2026-10-28T12:05:33+00:00,dns-resolver,warning,Routine background notice: job 114 finished with exit_code=0,systemd,node-10,True
+synth_00050,2026-10-28T12:07:37+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1039,payment_engine,node-9,True
+synth_00129,2026-10-28T12:15:54+00:00,billing-svc,error,Metric oscillation: memory_utilization=73%,datadog,node-9,True
+synth_00094,2026-10-28T12:07:26+00:00,backup-daemon,info,Routine background notice: job 112 finished with exit_code=0,systemd,node-6,True
+synth_00204,2026-10-28T12:16:12+00:00,postgres-db,info,Metric oscillation: memory_utilization=78%,datadog,node-1,True
+synth_00015,2026-10-28T12:05:19+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1004,payment_engine,node-1,True
+synth_00108,2026-10-28T12:02:11+00:00,inventory-svc,warning,Metric oscillation: memory_utilization=75%,datadog,node-2,True
+synth_00196,2026-10-28T12:03:21+00:00,postgres-db,error,Metric oscillation: memory_utilization=63%,datadog,node-3,True
+synth_00066,2026-10-28T12:08:43+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1055,payment_engine,node-3,True
+synth_00016,2026-10-28T12:05:21+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1005,payment_engine,node-6,True
+synth_00104,2026-10-28T12:15:54+00:00,postgres-db,error,Metric oscillation: memory_utilization=87%,datadog,node-9,True
+synth_00137,2026-10-28T12:16:41+00:00,checkout-svc,error,Metric oscillation: memory_utilization=75%,datadog,node-2,True
+synth_00025,2026-10-28T12:05:58+00:00,billing-svc,error,Payment processing transaction failed: handshake abort code=1014,payment_engine,node-3,True
+synth_00116,2026-10-28T12:22:43+00:00,postgres-db,info,Metric oscillation: memory_utilization=94%,datadog,node-6,True
+synth_00180,2026-10-28T12:19:47+00:00,auth-svc,error,Metric oscillation: memory_utilization=90%,datadog,node-8,True
+synth_00202,2026-10-28T12:23:22+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=75%,datadog,node-3,True
+synth_00134,2026-10-28T12:03:19+00:00,billing-svc,info,Metric oscillation: memory_utilization=72%,datadog,node-7,True
+synth_00165,2026-10-28T12:20:35+00:00,checkout-svc,info,Metric oscillation: memory_utilization=84%,datadog,node-7,True
+synth_00186,2026-10-28T12:11:36+00:00,checkout-svc,error,Metric oscillation: memory_utilization=94%,datadog,node-3,True
+synth_00111,2026-10-28T12:12:10+00:00,billing-svc,error,Metric oscillation: memory_utilization=75%,datadog,node-5,True
+synth_00198,2026-10-28T12:04:52+00:00,postgres-db,info,Metric oscillation: memory_utilization=74%,datadog,node-9,True
+synth_00120,2026-10-28T12:13:58+00:00,postgres-db,warning,Metric oscillation: memory_utilization=76%,datadog,node-1,True
+synth_00085,2026-10-28T12:18:17+00:00,email-sender,info,Routine background notice: job 103 finished with exit_code=0,systemd,node-9,True
+synth_00048,2026-10-28T12:07:29+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1037,payment_engine,node-10,True
+synth_00046,2026-10-28T12:07:20+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1035,payment_engine,node-8,True
+synth_00221,2026-10-28T12:11:52+00:00,checkout-svc,info,Metric oscillation: memory_utilization=92%,datadog,node-1,True
+synth_00197,2026-10-28T12:05:55+00:00,postgres-db,info,Metric oscillation: memory_utilization=65%,datadog,node-4,True
+synth_00042,2026-10-28T12:07:06+00:00,billing-svc,critical,Payment processing transaction failed: handshake abort code=1031,payment_engine,node-8,True
+synth_00006,2026-10-28T12:02:00+00:00,api-gateway,error,Circuit breaker OPEN for service 'checkout-svc',ingress_controller,node-3,True
+synth_00189,2026-10-28T12:07:27+00:00,inventory-svc,warning,Metric oscillation: memory_utilization=83%,datadog,node-3,True
+synth_00159,2026-10-28T12:19:14+00:00,checkout-svc,info,Metric oscillation: memory_utilization=74%,datadog,node-2,True
+synth_00022,2026-10-28T12:05:46+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1011,payment_engine,node-2,True
+synth_00118,2026-10-28T12:09:53+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=87%,datadog,node-6,True
+synth_00213,2026-10-28T12:09:22+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=74%,datadog,node-10,True
+synth_00145,2026-10-28T12:13:54+00:00,auth-svc,error,Metric oscillation: memory_utilization=73%,datadog,node-2,True
+synth_00056,2026-10-28T12:08:01+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1045,payment_engine,node-1,True
+synth_00135,2026-10-28T12:17:42+00:00,billing-svc,warning,Metric oscillation: memory_utilization=69%,datadog,node-1,True
+synth_00184,2026-10-28T12:12:07+00:00,inventory-svc,error,Metric oscillation: memory_utilization=89%,datadog,node-5,True
+synth_00037,2026-10-28T12:06:44+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1026,payment_engine,node-3,True
+synth_00201,2026-10-28T12:04:13+00:00,auth-svc,error,Metric oscillation: memory_utilization=73%,datadog,node-5,True
+synth_00193,2026-10-28T12:01:15+00:00,postgres-db,info,Metric oscillation: memory_utilization=90%,datadog,node-8,True
+synth_00009,2026-10-28T12:01:20+00:00,auth-svc,warning,Cache miss rate for JWT session tokens jumped to 88%,datadog,node-2,True
+synth_00103,2026-10-28T12:12:13+00:00,auth-svc,error,Metric oscillation: memory_utilization=76%,datadog,node-3,True
+synth_00005,2026-10-28T12:01:30+00:00,api-gateway,warning,Upstream checkout-svc responded with HTTP 504,ingress_controller,node-4,True
+synth_00176,2026-10-28T12:01:48+00:00,billing-svc,info,Metric oscillation: memory_utilization=71%,datadog,node-8,True
+synth_00172,2026-10-28T12:06:50+00:00,postgres-db,error,Metric oscillation: memory_utilization=77%,datadog,node-10,True
+synth_00092,2026-10-28T12:10:57+00:00,cron-worker,info,Routine background notice: job 110 finished with exit_code=0,systemd,node-8,True
+synth_00081,INVALID_DATE,analytics-pipeline,info,Daily aggregations scheduled task started,prometheus,node-9,True
+synth_00192,2026-10-28T12:24:38+00:00,auth-svc,error,Metric oscillation: memory_utilization=91%,datadog,node-2,True
+synth_00144,2026-10-28T12:19:16+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=69%,datadog,node-4,True
+synth_00158,2026-10-28T12:15:13+00:00,inventory-svc,warning,Metric oscillation: memory_utilization=90%,datadog,node-1,True
+synth_00087,2026-10-28T12:02:29+00:00,email-sender,warning,Routine background notice: job 105 finished with exit_code=0,systemd,node-2,True
+synth_00123,2026-10-28T12:11:32+00:00,checkout-svc,error,Metric oscillation: memory_utilization=79%,datadog,node-9,True
+synth_00011,2026-10-28T12:05:00+00:00,payment-gateway,critical,External partner TLS certificate validation failed: expired cert,cert_checker,node-7,True
+synth_00110,2026-10-28T12:06:22+00:00,auth-svc,info,Metric oscillation: memory_utilization=61%,datadog,node-3,True
+synth_00051,2026-10-28T12:07:41+00:00,billing-svc,error,Payment processing transaction failed: handshake abort code=1040,payment_engine,node-4,True
+synth_00147,2026-10-28T12:15:01+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=86%,datadog,node-7,True
+synth_00191,2026-10-28T12:10:11+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=95%,datadog,node-5,True
+synth_00044,2026-10-28T12:07:13+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1033,payment_engine,node-5,True
+synth_00203,2026-10-28T12:19:40+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=60%,datadog,node-7,True
+synth_00101,2026-10-28T12:17:25+00:00,dns-resolver,warning,Routine background notice: job 119 finished with exit_code=0,systemd,node-1,True
+synth_00061,2026-10-28T12:08:21+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1050,payment_engine,node-7,True
+synth_00200,2026-10-28T12:15:28+00:00,inventory-svc,error,Metric oscillation: memory_utilization=63%,datadog,node-10,True
+synth_00020,2026-10-28T12:05:39+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1009,payment_engine,node-7,True
+synth_00084,2026-10-28T12:02:07+00:00,cron-worker,warning,Routine background notice: job 102 finished with exit_code=0,systemd,node-9,True
+synth_00206,2026-10-28T12:03:15+00:00,auth-svc,info,Metric oscillation: memory_utilization=72%,datadog,node-7,True
+synth_00019,2026-10-28T12:05:34+00:00,billing-svc,error,Payment processing transaction failed: handshake abort code=1008,payment_engine,node-1,True
+synth_00214,2026-10-28T12:20:52+00:00,checkout-svc,error,Metric oscillation: memory_utilization=77%,datadog,node-10,True
+synth_00002,2026-10-28T12:00:15+00:00,postgres-db,critical,Query latency > 4500ms on table 'orders',pg_exporter,node-1,True
+synth_00059,2026-10-28T12:08:15+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1048,payment_engine,node-10,True
+synth_00068,2026-10-28T12:08:51+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1057,payment_engine,node-1,True
+synth_00173,2026-10-28T12:19:12+00:00,billing-svc,info,Metric oscillation: memory_utilization=87%,datadog,node-10,True
+synth_00057,2026-10-28T12:08:05+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1046,payment_engine,node-6,True
+synth_00109,2026-10-28T12:12:54+00:00,postgres-db,info,Metric oscillation: memory_utilization=69%,datadog,node-4,True
+synth_00215,2026-10-28T12:02:12+00:00,auth-svc,info,Metric oscillation: memory_utilization=93%,datadog,node-8,True
+synth_00013,2026-10-28T12:05:09+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1002,payment_engine,node-9,True
+synth_00112,2026-10-28T12:06:16+00:00,checkout-svc,info,Metric oscillation: memory_utilization=62%,datadog,node-8,True
+synth_00043,2026-10-28T12:07:08+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1032,payment_engine,node-9,True
+synth_00076,2026-10-28T12:13:20+00:00,inventory-svc,warning,Kafka consumer group lag recovered under threshold,kafka_monitor,node-7,True
+synth_00148,2026-10-28T12:20:46+00:00,checkout-svc,error,Metric oscillation: memory_utilization=84%,datadog,node-8,True
+synth_00065,2026-10-28T12:08:37+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1054,payment_engine,node-9,True
+synth_00017,2026-10-28T12:05:26+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1006,payment_engine,node-6,True
+synth_00010,2026-10-28T12:01:50+00:00,auth-svc,error,Authentication validation latency > 2000ms,datadog,node-10,True
+synth_00127,2026-10-28T12:19:32+00:00,checkout-svc,info,Metric oscillation: memory_utilization=78%,datadog,node-4,True
+synth_00181,2026-10-28T12:16:07+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=78%,datadog,node-4,True
+synth_00153,2026-10-28T12:16:47+00:00,auth-svc,error,Metric oscillation: memory_utilization=94%,datadog,node-1,True
+synth_00098,2026-10-28T12:04:45+00:00,backup-daemon,info,Routine background notice: job 116 finished with exit_code=0,systemd,node-2,True
+synth_00122,2026-10-28T12:13:15+00:00,billing-svc,warning,Metric oscillation: memory_utilization=81%,datadog,node-10,True
+synth_00082,2026-10-28T12:16:46+00:00,email-sender,info,Routine background notice: job 100 finished with exit_code=0,systemd,node-5,True
+synth_00012,2026-10-28T12:05:04+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1001,payment_engine,node-4,True
+synth_00218,2026-10-28T12:11:47+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=81%,datadog,node-7,True
+synth_00060,2026-10-28T12:08:19+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1049,payment_engine,node-7,True
+synth_00168,2026-10-28T12:02:14+00:00,inventory-svc,error,Metric oscillation: memory_utilization=87%,datadog,node-6,True
+synth_00212,2026-10-28T12:21:14+00:00,checkout-svc,info,Metric oscillation: memory_utilization=80%,datadog,node-10,True
+synth_00167,2026-10-28T12:24:37+00:00,inventory-svc,error,Metric oscillation: memory_utilization=67%,datadog,node-10,True
+synth_00083,2026-10-28T12:07:35+00:00,cron-worker,info,Routine background notice: job 101 finished with exit_code=0,systemd,node-6,True
+synth_00171,2026-10-28T12:22:31+00:00,billing-svc,error,Metric oscillation: memory_utilization=69%,datadog,node-7,True
+synth_00097,2026-10-28T12:18:13+00:00,cron-worker,warning,Routine background notice: job 115 finished with exit_code=0,systemd,node-2,True
+synth_00140,2026-10-28T12:19:32+00:00,billing-svc,warning,Metric oscillation: memory_utilization=90%,datadog,node-8,True
+synth_00170,2026-10-28T12:15:10+00:00,billing-svc,warning,Metric oscillation: memory_utilization=87%,datadog,node-6,True
+synth_00086,2026-10-28T12:02:54+00:00,email-sender,info,Routine background notice: job 104 finished with exit_code=0,systemd,node-10,True
+synth_00089,2026-10-28T12:02:57+00:00,dns-resolver,warning,Routine background notice: job 107 finished with exit_code=0,systemd,node-5,True
+synth_00174,2026-10-28T12:09:59+00:00,inventory-svc,warning,Metric oscillation: memory_utilization=65%,datadog,node-5,True
+synth_00138,2026-10-28T12:16:24+00:00,auth-svc,info,Metric oscillation: memory_utilization=93%,datadog,node-9,True
+synth_00115,2026-10-28T12:12:02+00:00,inventory-svc,warning,Metric oscillation: memory_utilization=77%,datadog,node-6,True
+synth_00039,2026-10-28T12:06:55+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1028,payment_engine,node-9,True
+synth_00126,2026-10-28T12:23:57+00:00,auth-svc,error,Metric oscillation: memory_utilization=79%,datadog,node-7,True
+synth_00149,2026-10-28T12:01:02+00:00,inventory-svc,info,Metric oscillation: memory_utilization=84%,datadog,node-7,True
+synth_00151,2026-10-28T12:08:19+00:00,inventory-svc,info,Metric oscillation: memory_utilization=91%,datadog,node-1,True
+synth_00077,2026-10-28T12:16:40+00:00,recommendation-svc,error,RPC Deadlock detected with search-reranker,grpc_interceptor,node-5,True
+synth_00073,2026-10-28T12:10:20+00:00,inventory-svc,critical,"Kafka consumer group lag exceeded 50,000 messages",kafka_monitor,node-3,True
+synth_00001,2026-10-28T12:00:00+00:00,postgres-db,critical,Max connection pool limit reached (500/500),pg_exporter,node-2,True
+synth_00205,2026-10-28T12:08:44+00:00,inventory-svc,error,Metric oscillation: memory_utilization=78%,datadog,node-8,True
+synth_00130,2026-10-28T12:16:59+00:00,auth-svc,error,Metric oscillation: memory_utilization=65%,datadog,node-5,True
+synth_00088,2026-10-28T12:19:36+00:00,email-sender,info,Routine background notice: job 106 finished with exit_code=0,systemd,node-10,True
+synth_00175,2026-10-28T12:16:13+00:00,auth-svc,info,Metric oscillation: memory_utilization=84%,datadog,node-6,True
+synth_00071,2026-10-28T12:08:20+00:00,inventory-svc,critical,"Kafka consumer group lag exceeded 50,000 messages",kafka_monitor,node-7,True
+synth_00018,2026-10-28T12:05:28+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1007,payment_engine,node-2,True
+synth_00035,2026-10-28T12:06:39+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1024,payment_engine,node-6,True
+synth_00177,2026-10-28T12:08:04+00:00,inventory-svc,info,Metric oscillation: memory_utilization=81%,datadog,node-5,True
+synth_00154,2026-10-28T12:14:16+00:00,postgres-db,error,Metric oscillation: memory_utilization=61%,datadog,node-2,True
+synth_00216,2026-10-28T12:10:19+00:00,auth-svc,error,Metric oscillation: memory_utilization=87%,datadog,node-8,True
+synth_00099,2026-10-28T12:19:03+00:00,email-sender,warning,Routine background notice: job 117 finished with exit_code=0,systemd,node-5,True
+synth_00038,2026-10-28T12:06:51+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1027,payment_engine,node-7,True
+synth_00188,2026-10-28T12:20:57+00:00,postgres-db,error,Metric oscillation: memory_utilization=78%,datadog,node-2,True
+synth_00117,2026-10-28T12:01:46+00:00,checkout-svc,info,Metric oscillation: memory_utilization=71%,datadog,node-10,True
+synth_00063,2026-10-28T12:08:28+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1052,payment_engine,node-1,True
+synth_00121,2026-10-28T12:15:43+00:00,checkout-svc,error,Metric oscillation: memory_utilization=94%,datadog,node-4,True
+synth_00124,2026-10-28T12:11:23+00:00,billing-svc,info,Metric oscillation: memory_utilization=85%,datadog,node-5,True
+synth_00107,2026-10-28T12:15:30+00:00,auth-svc,warning,Metric oscillation: memory_utilization=79%,datadog,node-6,True
+synth_00070,2026-10-28T12:08:59+00:00,billing-svc,error,Payment processing transaction failed: handshake abort code=1059,payment_engine,node-4,True
+synth_00131,2026-10-28T12:18:25+00:00,postgres-db,info,Metric oscillation: memory_utilization=65%,datadog,node-4,True
+synth_00075,2026-10-28T12:12:20+00:00,inventory-svc,critical,"Kafka consumer group lag exceeded 50,000 messages",kafka_monitor,node-1,True
+synth_00211,2026-10-28T12:17:54+00:00,postgres-db,info,Metric oscillation: memory_utilization=88%,datadog,node-2,True
+synth_00040,2026-10-28T12:06:58+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1029,payment_engine,node-2,True
+synth_00166,2026-10-28T12:07:36+00:00,checkout-svc,error,Metric oscillation: memory_utilization=75%,datadog,node-2,True
+synth_00031,2026-10-28T12:06:23+00:00,billing-svc,critical,Payment processing transaction failed: handshake abort code=1020,payment_engine,node-4,True
+synth_00219,2026-10-28T12:24:30+00:00,billing-svc,info,Metric oscillation: memory_utilization=85%,datadog,node-9,True
+synth_00030,2026-10-28T12:06:16+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1019,payment_engine,node-6,True
+synth_00058,2026-10-28T12:08:08+00:00,settlement-svc,critical,Payment processing transaction failed: handshake abort code=1047,payment_engine,node-5,True
+synth_00024,2026-10-28T12:05:52+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1013,payment_engine,node-7,True
+synth_00105,2026-10-28T12:01:09+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=69%,datadog,node-9,True
+synth_00190,2026-10-28T12:11:09+00:00,checkout-svc,error,Metric oscillation: memory_utilization=94%,datadog,node-3,True
+synth_00004,2026-10-28T12:01:00+00:00,checkout-svc,critical,HTTP 500 error rate spiked to 34%,app_metrics,node-4,True
+synth_00142,2026-10-28T12:17:22+00:00,auth-svc,info,Metric oscillation: memory_utilization=88%,datadog,node-2,True
+synth_00080,2026-10-28T12:18:20+00:00,,warning,Host kernel memory pressure threshold reached,node_exporter,node-7,True
+synth_00041,2026-10-28T12:07:02+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1030,payment_engine,node-2,True
+synth_00182,2026-10-28T12:14:38+00:00,auth-svc,info,Metric oscillation: memory_utilization=83%,datadog,node-8,True
+synth_00062,2026-10-28T12:08:26+00:00,billing-svc,error,Payment processing transaction failed: handshake abort code=1051,payment_engine,node-8,True
+synth_00156,2026-10-28T12:02:32+00:00,inventory-svc,info,Metric oscillation: memory_utilization=80%,datadog,node-4,True
+synth_00162,2026-10-28T12:16:59+00:00,checkout-svc,error,Metric oscillation: memory_utilization=73%,datadog,node-8,True
+synth_00008,2026-10-28T12:00:50+00:00,auth-cache,error,"Keys eviction rate spike: 12,000 evictions/sec",redis_exporter,node-9,True
+synth_00032,2026-10-28T12:06:26+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1021,payment_engine,node-7,True
+synth_00125,2026-10-28T12:19:45+00:00,auth-svc,warning,Metric oscillation: memory_utilization=86%,datadog,node-7,True
+synth_00179,2026-10-28T12:07:21+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=86%,datadog,node-8,True
+synth_00113,2026-10-28T12:08:25+00:00,auth-svc,info,Metric oscillation: memory_utilization=82%,datadog,node-5,True
+synth_00074,2026-10-28T12:11:20+00:00,inventory-svc,warning,Kafka consumer group lag recovered under threshold,kafka_monitor,node-7,True
+synth_00034,2026-10-28T12:06:33+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1023,payment_engine,node-10,True
+synth_00141,2026-10-28T12:09:40+00:00,auth-svc,error,Metric oscillation: memory_utilization=77%,datadog,node-9,True
+synth_00069,2026-10-28T12:08:52+00:00,payment-gateway,critical,Payment processing transaction failed: handshake abort code=1058,payment_engine,node-3,True
+synth_00053,2026-10-28T12:07:50+00:00,billing-svc,error,Payment processing transaction failed: handshake abort code=1042,payment_engine,node-2,True
+synth_00217,2026-10-28T12:03:56+00:00,billing-svc,info,Metric oscillation: memory_utilization=86%,datadog,node-6,True
+synth_00195,2026-10-28T12:17:08+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=85%,datadog,node-8,True
+synth_00114,2026-10-28T12:08:36+00:00,auth-svc,warning,Metric oscillation: memory_utilization=72%,datadog,node-7,True
+synth_00161,2026-10-28T12:01:31+00:00,postgres-db,warning,Metric oscillation: memory_utilization=75%,datadog,node-3,True
+synth_00128,2026-10-28T12:15:30+00:00,postgres-db,error,Metric oscillation: memory_utilization=80%,datadog,node-8,True
+synth_00194,2026-10-28T12:15:52+00:00,inventory-svc,warning,Metric oscillation: memory_utilization=63%,datadog,node-5,True
+synth_00160,2026-10-28T12:23:04+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=75%,datadog,node-4,True
+synth_00093,2026-10-28T12:19:23+00:00,cron-worker,info,Routine background notice: job 111 finished with exit_code=0,systemd,node-9,True
+synth_00133,2026-10-28T12:01:40+00:00,checkout-svc,warning,Metric oscillation: memory_utilization=90%,datadog,node-10,True
+synth_00049,2026-10-28T12:07:32+00:00,payment-gateway,error,Payment processing transaction failed: handshake abort code=1038,payment_engine,node-2,True
+synth_00014,2026-10-28T12:05:13+00:00,settlement-svc,error,Payment processing transaction failed: handshake abort code=1003,payment_engine,node-4,True
+synth_00106,2026-10-28T12:02:03+00:00,inventory-svc,error,Metric oscillation: memory_utilization=95%,datadog,node-3,True
+synth_00119,2026-10-28T12:11:32+00:00,billing-svc,error,Metric oscillation: memory_utilization=92%,datadog,node-2,True
+synth_00139,2026-10-28T12:21:09+00:00,inventory-svc,info,Metric oscillation: memory_utilization=92%,datadog,node-7,True
+synth_00169,2026-10-28T12:03:11+00:00,postgres-db,error,Metric oscillation: memory_utilization=81%,datadog,node-1,True

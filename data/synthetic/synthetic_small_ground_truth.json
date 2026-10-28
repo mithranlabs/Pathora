@@ -1,0 +1,143 @@
+{
+  "dataset_name": "synthetic_small_v1",
+  "is_synthetic": true,
+  "created_at": "2026-10-28T11:29:04.990755",
+  "incidents": [
+    {
+      "incident_id": "INC-001",
+      "title": "Database Connection Exhaustion Cascading to Checkout and Gateway",
+      "root_cause_service": "postgres-db",
+      "root_cause_alert_id": "synth_00001",
+      "alert_ids": [
+        "synth_00001",
+        "synth_00002",
+        "synth_00003",
+        "synth_00004",
+        "synth_00005",
+        "synth_00006"
+      ],
+      "synthetic_scenario": "cascading_multi_service_failure",
+      "description": "Postgres connection pool saturation caused checkout service timeouts and gateway circuit breaker trip."
+    },
+    {
+      "incident_id": "INC-002",
+      "title": "Auth Redis Cache Eviction Storm",
+      "root_cause_service": "auth-cache",
+      "root_cause_alert_id": "synth_00007",
+      "alert_ids": [
+        "synth_00007",
+        "synth_00008",
+        "synth_00009",
+        "synth_00010"
+      ],
+      "synthetic_scenario": "concurrent_unrelated_incident",
+      "description": "Independent Redis OOM in auth cluster running concurrently with database checkout incident."
+    },
+    {
+      "incident_id": "INC-003",
+      "title": "Payment TLS Certificate Expiration Storm",
+      "root_cause_service": "payment-gateway",
+      "root_cause_alert_id": "synth_00011",
+      "alert_ids": [
+        "synth_00011",
+        "synth_00012",
+        "synth_00013",
+        "synth_00014",
+        "synth_00015",
+        "synth_00016",
+        "synth_00017",
+        "synth_00018",
+        "synth_00019",
+        "synth_00020",
+        "synth_00021",
+        "synth_00022",
+        "synth_00023",
+        "synth_00024",
+        "synth_00025"
+      ],
+      "synthetic_scenario": "high_volume_alert_storm",
+      "description": "Sudden burst of payment failures across multiple financial services caused by expired vendor cert."
+    },
+    {
+      "incident_id": "INC-004",
+      "title": "Inventory Kafka Consumer Flapping Lag",
+      "root_cause_service": "inventory-svc",
+      "root_cause_alert_id": "synth_00026",
+      "alert_ids": [
+        "synth_00026",
+        "synth_00027",
+        "synth_00028",
+        "synth_00029",
+        "synth_00030",
+        "synth_00031"
+      ],
+      "synthetic_scenario": "flapping_alerts",
+      "description": "Oscillating consumer lag firing repeated warning and critical alerts."
+    },
+    {
+      "incident_id": "INC-005",
+      "title": "Circular Dependency RPC Deadlock Between Recommendations and Search",
+      "root_cause_service": null,
+      "root_cause_alert_id": null,
+      "alert_ids": [
+        "synth_00032",
+        "synth_00033"
+      ],
+      "synthetic_scenario": "ambiguous_origin_cyclic_deadlock",
+      "description": "Both services alerted at the identical second with circular dependencies; true origin is ambiguous."
+    }
+  ],
+  "unassigned_alert_ids": [
+    "synth_00035",
+    "synth_00036",
+    "synth_00037",
+    "synth_00038",
+    "synth_00039",
+    "synth_00040",
+    "synth_00041"
+  ],
+  "alert_to_incident": {
+    "synth_00001": "INC-001",
+    "synth_00002": "INC-001",
+    "synth_00003": "INC-001",
+    "synth_00004": "INC-001",
+    "synth_00005": "INC-001",
+    "synth_00006": "INC-001",
+    "synth_00007": "INC-002",
+    "synth_00008": "INC-002",
+    "synth_00009": "INC-002",
+    "synth_00010": "INC-002",
+    "synth_00011": "INC-003",
+    "synth_00012": "INC-003",
+    "synth_00013": "INC-003",
+    "synth_00014": "INC-003",
+    "synth_00015": "INC-003",
+    "synth_00016": "INC-003",
+    "synth_00017": "INC-003",
+    "synth_00018": "INC-003",
+    "synth_00019": "INC-003",
+    "synth_00020": "INC-003",
+    "synth_00021": "INC-003",
+    "synth_00022": "INC-003",
+    "synth_00023": "INC-003",
+    "synth_00024": "INC-003",
+    "synth_00025": "INC-003",
+    "synth_00026": "INC-004",
+    "synth_00027": "INC-004",
+    "synth_00028": "INC-004",
+    "synth_00029": "INC-004",
+    "synth_00030": "INC-004",
+    "synth_00031": "INC-004",
+    "synth_00032": "INC-005",
+    "synth_00033": "INC-005",
+    "synth_00034": "INC-001"
+  },
+  "generation_seed": 42,
+  "assumptions": [
+    "Deterministic generation using fixed pseudo-random seed.",
+    "Simulates 5 distinct incident patterns: cascading failure, concurrent independent incident, storm, flapping, ambiguous cyclic deadlock.",
+    "Simulates dirty data: corrupt timestamps, missing service names, and delayed arrival.",
+    "Ground-truth incident labels are strictly evaluation-only and omitted from input files.",
+    "Service dependency graph includes known real-world flaws: circular calls and misleading edges."
+  ]
+}

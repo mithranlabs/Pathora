@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+
+# IDE / Antigravity / Scratch
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & Secrets
+.env
+.env.local
+*.log
+data/official/
